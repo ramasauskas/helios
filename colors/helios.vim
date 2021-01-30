@@ -40,7 +40,7 @@ exe 'hi ColorColumn  guibg='s:bg2
 exe 'hi LineNr guifg='s:fg2' guibg='s:bg2
 exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3
 exe 'hi MatchParen guifg='s:warning2''
-exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' 
+exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3''
 exe 'hi Pmenu guifg='s:fg' guibg='s:bg2
 exe 'hi PmenuSel  guibg='s:bg3
 exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
