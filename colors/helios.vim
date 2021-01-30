@@ -1,5 +1,5 @@
 " Vim color file
-" naysayer
+" helios
 " Created by matt with ThemeCreator (https://github.com/mswift42/themecreator)
 
 hi clear
@@ -20,7 +20,7 @@ let s:fg4="#9f8c73"
 let s:bg2="#1a353a"
 let s:bg3="#2e464b"
 let s:bg4="#42585c"
-let s:keyword="#d1b897"
+let s:keyword="#ffffff"
 let s:builtin="#ffffff"
 let s:const= "#d4d4d4"
 let s:comment="#44b340"
