@@ -39,8 +39,8 @@ exe 'hi CursorColumn  guibg='s:bg2
 exe 'hi ColorColumn  guibg='s:bg2
 exe 'hi LineNr guifg='s:fg2' guibg='s:bg2
 exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3
-exe 'hi MatchParen guifg='s:warning2' 
-exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' gui=bold'
+exe 'hi MatchParen guifg='s:warning2''
+exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' 
 exe 'hi Pmenu guifg='s:fg' guibg='s:bg2
 exe 'hi PmenuSel  guibg='s:bg3
 exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
@@ -63,8 +63,8 @@ exe 'hi ErrorMsg guifg='s:warning' guibg='s:bg2' gui=bold'
 exe 'hi WarningMsg guifg='s:fg' guibg='s:warning2
 exe 'hi Float guifg='s:const
 exe 'hi Function guifg='s:func
-exe 'hi Identifier guifg='s:type'
-exe 'hi Keyword guifg='s:keyword'
+exe 'hi Identifier guifg='s:type''
+exe 'hi Keyword guifg='s:keyword''
 exe 'hi Label guifg='s:var
 exe 'hi NonText guifg='s:bg4' guibg='s:bg2
 exe 'hi Number guifg='s:const
@@ -73,7 +73,7 @@ exe 'hi PreProc guifg='s:keyword
 exe 'hi Special guifg='s:fg
 exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2
 exe 'hi Statement guifg='s:keyword
-exe 'hi StorageClass guifg='s:type'
+exe 'hi StorageClass guifg='s:type''
 exe 'hi String guifg='s:str
 exe 'hi Tag guifg='s:keyword
 exe 'hi Title guifg='s:fg'  gui=bold'
@@ -101,7 +101,7 @@ let g:terminal_color_15 = s:comment
 " Ruby Highlighting
 exe 'hi rubyAttribute guifg='s:builtin
 exe 'hi rubyLocalVariableOrMethod guifg='s:var
-exe 'hi rubyGlobalVariable guifg='s:var'
+exe 'hi rubyGlobalVariable guifg='s:var''
 exe 'hi rubyInstanceVariable guifg='s:var
 exe 'hi rubyKeyword guifg='s:keyword
 exe 'hi rubyKeywordAsMethod guifg='s:keyword' gui=bold'
@@ -138,7 +138,7 @@ exe 'hi jsGlobalObjects guifg='s:type
 exe 'hi jsAssignmentExps guifg='s:var
 
 " Html Highlighting
-exe 'hi htmlLink guifg='s:var' 
+exe 'hi htmlLink guifg='s:var''
 exe 'hi htmlStatement guifg='s:keyword
 exe 'hi htmlSpecialTagName guifg='s:keyword
 
