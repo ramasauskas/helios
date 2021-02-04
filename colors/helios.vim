@@ -30,8 +30,8 @@ let s:type="#d4d4d4"
 let s:var="#c1d1e3"
 let s:warning="#ff0000"
 let s:warning2="#ff8800"
-let s:visualfg=wheat
-let s:visualbg=peru
+let s:visualfg="wheat"
+let s:visualbg="peru"
 
 exe 'hi Normal guifg='s:fg' guibg='s:bg
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
