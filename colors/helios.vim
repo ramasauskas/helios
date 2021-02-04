@@ -30,6 +30,8 @@ let s:type="#d4d4d4"
 let s:var="#c1d1e3"
 let s:warning="#ff0000"
 let s:warning2="#ff8800"
+let s:visualfg=wheat
+let s:visualbg=peru
 
 exe 'hi Normal guifg='s:fg' guibg='s:bg
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
@@ -47,6 +49,8 @@ exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
 exe 'hi Directory guifg='s:const
 exe 'hi Folded guifg='s:fg4' guibg='s:bg
 exe 'hi WildMenu guifg='s:str' guibg='s:bg
+exe 'hi Search guifg='s:visualfg' guibg='s:visualbg
+exe 'hi Visual guifg='s:visualfg' guibg='s:visualbg
 
 exe 'hi Boolean guifg='s:const
 exe 'hi Character guifg='s:const
